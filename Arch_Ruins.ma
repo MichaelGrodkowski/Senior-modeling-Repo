@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: Arch_Ruins.ma
-//Last modified: Sun, Oct 18, 2020 10:46:16 PM
+//Last modified: Mon, Oct 19, 2020 11:25:49 AM
 //Codeset: 1252
 requires maya "2018";
 requires "stereoCamera" "10.0";
@@ -14,13 +14,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "194A22B4-4845-BB2C-932C-99920E79BE3F";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -10.133344020327936 16.092631737401717 31.357610314633284 ;
-	setAttr ".r" -type "double3" -19.538352729852278 -1095.3999999997245 -4.1237551121638957e-16 ;
+	setAttr ".t" -type "double3" 17.940701985180443 59.428729869411733 -0.042459130608454743 ;
+	setAttr ".r" -type "double3" -70.538352729847659 -990.19999999971856 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "39605F6A-4DB7-9EF9-C888-4DBB6C78CAA5";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 34.634029281114202;
+	setAttr ".coi" 58.246983147284269;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
